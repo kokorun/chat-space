@@ -1,0 +1,12 @@
+// side のカラー情報
+$side-backgroundcolor:#253141;
+$side-charactercolor: bold
+
+
+@mixin clearfix() {
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+}
